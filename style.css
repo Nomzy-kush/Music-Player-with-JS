@@ -7,8 +7,8 @@
 body {
   background-image: linear-gradient(
     0deg,
-    rgba(247, 247, 247, 1) 23.8%,
-    rgba(252, 221, 221, 1) 92%
+    #8A2BE2,
+    #9370DB
   );
   height: 100vh;
   display: flex;
@@ -20,9 +20,8 @@ body {
 }
 
 .music-container {
-  background-color: #fff;
-  border-radius: 15px;
-  box-shadow: 0 20px 20px 0 rgba(252, 169, 169, 0.6);
+  background-color: #efefef;
+  box-shadow: inset -1px -1px 5px rgba(33,33,33, 0.5), inset 1px 1px 5px rgba(33,33,33,0.5); 
   display: flex;
   padding: 20px 30px;
   position: relative;
@@ -82,9 +81,8 @@ body {
 }
 
 .action-btn {
-  background-color: #fff;
   border: 0;
-  color: #dfdbdf;
+  border-radius: 20px;
   font-size: 20px;
   cursor: pointer;
   padding: 10px;
@@ -92,8 +90,8 @@ body {
 }
 
 .action-btn.action-btn-big {
-  color: #cdc2d0;
   font-size: 30px;
+  outline: none;
 }
 
 .action-btn:focus {
